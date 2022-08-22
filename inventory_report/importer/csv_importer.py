@@ -3,7 +3,7 @@ from .importer import Importer
 
 
 class CsvImporter(Importer):
-    @classmethod
+    @staticmethod
     def import_data(caminho):
         if ".csv" not in caminho:
             raise ValueError("Arquivo inválido")
