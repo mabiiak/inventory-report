@@ -16,9 +16,9 @@ class CompleteReport(SimpleReport):
         relatorio_simples = SimpleReport.generate(lista)
         relatorio_estoque = CompleteReport.conta_produtos(lista)
         relatorio_completo = (
-            relatorio_simples + "\n Produtos estocados por empresa:\n"
+            relatorio_simples + "\nProdutos estocados por empresa:\n"
         )
         for key, value in relatorio_estoque.items():
             relatorio_completo += f"- {key}: {value}\n"
-
+        print(relatorio_completo)
         return relatorio_completo
