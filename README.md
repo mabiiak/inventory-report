@@ -14,7 +14,7 @@
 
   - Através da importação de um arquivo `XML`.
 
-      ❌ Habilidades a serem trabalhadas:
+## Habilidades:
   - Aplicar conceitos de Orientação a Objetos em Python;
   
   - Aplicar padrões de projeto;
@@ -212,30 +212,30 @@ Os arquivos **XML** seguem o seguinte modelo:
 
     ❌ 10 - Criar uma classe `InventoryIterator`
 
-    - 10.1 - Será validado que a instancia de InventoryRefactor é iterável (Iterable)
+        - 10.1 - Será validado que a instancia de InventoryRefactor é iterável (Iterable)
 
-    - 10.2 - Será validado que é possível iterar o primeiro item da lista usando csv
+        - 10.2 - Será validado que é possível iterar o primeiro item da lista usando csv
 
-    - 10.3 - Será validado que é possível iterar o primeiro item da lista usando json
+        - 10.3 - Será validado que é possível iterar o primeiro item da lista usando json
 
-    - 10.4 - Será validado que é possível iterar o primeiro item da lista usando xml
+        - 10.4 - Será validado que é possível iterar o primeiro item da lista usando xml
 
-    - 10.5 - Será validado que é possível receber duas fontes de dados sem sobrescrita
+        - 10.5 - Será validado que é possível receber duas fontes de dados sem sobrescrita
 
-    - 10.6 - Será validado que não é possível enviar arquivo inválido
+        - 10.6 - Será validado que não é possível enviar arquivo inválido
 
     ❌ 11 - Preencha a função `main` no módulo `inventory_report/main.py`
 
-    - 11.1 - Será validado se pelo comando é possível importar um arquivo csv simples
+        - 11.1 - Será validado se pelo comando é possível importar um arquivo csv simples
 
-    - 11.2 - Será validado se pelo comando é possível importar um arquivo csv completo
+        - 11.2 - Será validado se pelo comando é possível importar um arquivo csv completo
 
-    - 11.3 - Será validado se pelo comando é possível importar um arquivo json simples
+        - 11.3 - Será validado se pelo comando é possível importar um arquivo json simples
 
-    - 11.4 - Será validado se pelo comando é possível importar um arquivo json completo
+        - 11.4 - Será validado se pelo comando é possível importar um arquivo json completo
 
-    - 11.5 - Será validado se pelo comando é possível importar um arquivo xml simples
+        - 11.5 - Será validado se pelo comando é possível importar um arquivo xml simples
 
-    - 11.6 - Será validado se pelo comando é possível importar um arquivo xml completo
+        - 11.6 - Será validado se pelo comando é possível importar um arquivo xml completo
 
-    - 11.7 - Será validado se houverem argumentos faltantes será retornando um erro
+        - 11.7 - Será validado se houverem argumentos faltantes será retornando um erro
